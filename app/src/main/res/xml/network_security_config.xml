@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <network-security-config>
+        <domain-config cleartextTrafficPermitted="true">
+<!--            <domain includeSubdomains="true">192.168.0.24</domain> &lt;!&ndash; 替換為你的伺服器 IP &ndash;&gt;-->
+            <domain includeSubdomains="true">192.168.58.156</domain> <!-- 替換為你的伺服器 IP -->
+        </domain-config>
+    </network-security-config>
